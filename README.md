@@ -20,7 +20,7 @@
 - Finalize detailed requirements & success criteria  
 - Identify & catalog all data sources (Top 100 points, ER diagram)  
 - Spin up dev environments (Python 3.10, FastAPI, React/Tailwind)  
-- Lock in tech stack and cloud DB (Supabase)  
+- Lock in tech stack and cloud DB (Supabase or AWS)  
 - Scaffold repo, CI (lint/tests), branch strategy  
 
 ### Weeks 3–4: Backend & RAG MVP
@@ -42,5 +42,4 @@
 - Add analytics (usage metrics) & logging (Sentry)  
 - Security review (RBAC, secrets, CORS)  
 - Containerize (Docker + Docker-Compose)  
-- Deploy frontend (Vercel) & backend (AWS/Supabase functions or ECS)  
-- Write handover docs & demo video  
+- Deploy frontend (Vercel) & backend (AWS/Supabase functions or ECS)
