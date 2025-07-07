@@ -27,12 +27,14 @@ class Database:
             await self.pool.close()
 
 async def main():
-    print(f"Connecting to: {DB_URL}")
     db = Database()
     await db.init_pool()
-    print("Connection successful!")
+    
+
     await db.close()
     print("Pool closed.")
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+    
