@@ -24,7 +24,7 @@ CREATE TABLE agent (
     commission_rate NUMERIC(5,2)
 );
 
--- Policy table
+-- Policy tablec
 CREATE TABLE policy (
     policy_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     policy_number VARCHAR(50) UNIQUE NOT NULL,
