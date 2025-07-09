@@ -8,7 +8,7 @@ load_dotenv(find_dotenv())
 
 MIN_POOL = 5
 MAX_POOL = 20
-DB_URL = os.getenv("DATABASE_URL")
+DB_URL = os.getenv("DB_URL")
 class Database:
     def __init__(self):
         self.pool = None

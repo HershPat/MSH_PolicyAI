@@ -1,6 +1,3 @@
--- Enable UUID generation (if not already enabled)
-CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
-
 -- Customer table
 CREATE TABLE customer (
     customer_id TEXT PRIMARY KEY,  -- from Excel, like "CUST001"

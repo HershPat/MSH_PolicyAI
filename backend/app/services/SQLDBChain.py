@@ -96,4 +96,4 @@ with gr.Blocks(theme=gr.themes.Soft(), title="SQL Agent GUI") as iface:
     )
 
 if __name__ == "__main__":
-    iface.launch()
+    iface.launch(share=True)
